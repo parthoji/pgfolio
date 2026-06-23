@@ -253,3 +253,35 @@ html, body {
     .footer-bottom { flex-direction: column; gap: 16px; text-align: center; }
     .about-spec-list { grid-template-columns: 1fr; }
 }
+
+/* --- Responsive Adjustments --- */
+@media(max-width: 1024px) {
+    /* Center the Bento Grid on tablets */
+    .about-bento-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+    .about-bento-grid > div {
+        grid-column: span 1 !important;
+    }
+    
+    /* Ensure Services Grid centers nicely on tablets */
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    /* Adjust container padding for tablet */
+    .container {
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 768px) {
+    /* Further refinement for mobile */
+    .section-padding {
+        padding: 80px 0;
+    }
+    .hero-buttons {
+        flex-direction: column;
+    }
+}
