@@ -391,6 +391,45 @@ html, body {
     .section-padding { padding: 60px 0 !important; }
     .hero-title { font-size: 2.5rem !important; }
     .services-grid { grid-template-columns: 1fr !important; }
+    .btn {
+        justify-content: center;
+    }
+    .intro-slide-content {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .project-intro-slide{
+        justify-content: center;
+    }
+    .intro-slide-content h2{
+        font-size: 3rem;
+    }
+    .glass-card{
+         text-align: center;
+    }
+    .btn-top-parent{
+        text-align: center;
+        justify-content: center;
+    }
+    .project-info {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .contact-left{
+        text-align:center;
+    }
+    .glass-card {
+     text-align: left;
+    }
+    .swiper-slide  {
+       text-align: center;
+    }
 }
 
 
